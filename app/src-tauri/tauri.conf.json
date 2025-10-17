@@ -50,12 +50,12 @@
     "windows": [
       {
         "fullscreen": false,
-        "height": 197,
+        "height": 400,
         "resizable": true,
         "title": "lofi-radio-desktop",
-        "width": 350,
+        "width": 600,
         "alwaysOnTop": true,
-        "decorations": false,
+        "decorations": true,
         "fileDropEnabled": false
       }
     ]

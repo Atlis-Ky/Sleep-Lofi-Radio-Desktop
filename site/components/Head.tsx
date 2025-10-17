@@ -5,8 +5,8 @@ export default function HeadMeta(){
   return (
 <>  
   <Head>
-    <title>Lofi Radio Desktop</title>
-    <meta name="title" content="Lofi Radio Desktop" />
+    <title>Lofi Sleep Desktop Radio</title>
+    <meta name="title" content="Lofi Sleep Desktop Radio" />
     <meta name="description" content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"/>
     <meta name="google-site-verification" content="0L-OGw7wusEygK1F_ra_origg8lgYJsgfezVrpvljJw" />
 

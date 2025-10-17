@@ -8,7 +8,6 @@
     "start": "next start"
   },
   "dependencies": {
-    "@feedback-fish/react": "^1.2.1",
     "jquery": "^3.5.1",
     "next": "^13.1.1",
     "react": "^18.2.0",
