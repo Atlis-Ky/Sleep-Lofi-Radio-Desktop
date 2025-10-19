@@ -22,7 +22,8 @@ export default function HeadMeta() {
         <meta name="title" content="Lofi Sleep Desktop Radio" />
         <meta
           name="description"
-          content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"
+          content="About
+Listen to sleep tales 24/7 radio from your desktop any time!"
         />
         <meta
           name="google-site-verification"
@@ -37,9 +38,10 @@ export default function HeadMeta() {
         <meta property="og:title" content="Lofi Radio Desktop" />
         <meta
           property="og:description"
-          content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"
+          content="About
+Listen to sleep tales 24/7 radio from your desktop any time!"
         />
-        <meta property="og:image" content="../public/meta/main.jpg" />
+        <meta property="og:image" content="/Thumbnail-st.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -47,14 +49,14 @@ export default function HeadMeta() {
           content="https://lofi-radio-desktop.vercel.app"
         />
         <meta property="twitter:title" content="Lofi Radio Desktop" />
-        <meta
+        {/* <meta
           property="twitter:description"
           content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"
-        />
-        <meta
+        /> */}
+        {/* <meta
           property="twitter:image"
           content="https://i.imgur.com/Lg3PMpn.png"
-        />
+        /> */}
       </Head>
       <Script async src="https://cdn.splitbee.io/sb.js" />
     </>
