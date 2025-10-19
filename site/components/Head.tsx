@@ -58,7 +58,6 @@ Listen to sleep tales 24/7 radio from your desktop any time!"
           content="https://i.imgur.com/Lg3PMpn.png"
         /> */}
       </Head>
-      <Script async src="https://cdn.splitbee.io/sb.js" />
     </>
   );
 }
