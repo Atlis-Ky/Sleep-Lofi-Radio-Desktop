@@ -7,7 +7,7 @@
     "distDir": "./ui"
   },
   "package": {
-    "productName": "lofi-radio-desktop",
+    "productName": "Sleep Tales Desktop Radio",
     "version": "0.1.0"
   },
   "tauri": {
@@ -52,7 +52,7 @@
         "fullscreen": false,
         "height": 400,
         "resizable": true,
-        "title": "lofi-radio-desktop",
+        "title": "Sleep Tales Desktop Radio",
         "width": 600,
         "alwaysOnTop": true,
         "decorations": true,

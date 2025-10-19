@@ -28,15 +28,14 @@ export default function Home() {
 
           <div style={{ display: "flex" }}>
             <Button_1>
-              <Link href="https://bit.ly/3Q278ud" download="lofi.app">
-                Download
-                <AiOutlineApple />
+              <Link href="https://github.com/Atlis-Ky/Sleep-Lofi-Radio-Desktop/releases/download/v1.0.0/Sleep.Tales.Desktop.Radio_0.1.0_universal.dmg">
+                Download <AiOutlineApple />
               </Link>
             </Button_1>
 
             <Button_2>
-              <Link href="https://bit.ly/3hWDgmw" download="lofi.app">
-                Download <SiWindows95 />
+              <Link href="#" onClick={(e) => e.preventDefault()}>
+                Coming Soon <SiWindows95 />
               </Link>
             </Button_2>
           </div>
