@@ -59,6 +59,7 @@ const Container = styled.div`
 `;
 
 const Title = styled.h1`
+  font-family: "Varela Round", sans-serif;
   font-size: 3rem;
   margin: 55px;
   color: white;
@@ -70,6 +71,7 @@ const Title = styled.h1`
 `;
 
 const Subtitle = styled.h2`
+  font-family: "Varela Round", sans-serif;
   font-size: 1.2rem;
   margin: -40px 55px 40px 55px;
   color: rgba(255, 255, 255, 0.8);

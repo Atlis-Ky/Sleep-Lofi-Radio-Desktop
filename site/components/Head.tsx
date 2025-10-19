@@ -1,28 +1,62 @@
 import Head from "next/head";
 import Script from "next/script";
 
-export default function HeadMeta(){
+export default function HeadMeta() {
   return (
-<>  
-  <Head>
-    <title>Lofi Sleep Desktop Radio</title>
-    <meta name="title" content="Lofi Sleep Desktop Radio" />
-    <meta name="description" content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"/>
-    <meta name="google-site-verification" content="0L-OGw7wusEygK1F_ra_origg8lgYJsgfezVrpvljJw" />
+    <>
+      <Head>
+        <title>Lofi Sleep Desktop Radio</title>
 
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://lofi-radio-desktop.vercel.app"/>
-    <meta property="og:title" content="Lofi Radio Desktop"/>
-    <meta property="og:description" content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"/>
-    <meta property="og:image" content="../public/meta/main.jpg"/>
+        {/* Google Fonts */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+          rel="stylesheet"
+        />
 
-    <meta property="twitter:card" content="summary_large_image"/>
-    <meta property="twitter:url" content="https://lofi-radio-desktop.vercel.app"/>
-    <meta property="twitter:title" content="Lofi Radio Desktop"/>
-    <meta property="twitter:description" content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"/>
-    <meta property="twitter:image" content="https://i.imgur.com/Lg3PMpn.png" />
-  </Head>
-  <Script async src="https://cdn.splitbee.io/sb.js" />
-</>
+        <meta name="title" content="Lofi Sleep Desktop Radio" />
+        <meta
+          name="description"
+          content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"
+        />
+        <meta
+          name="google-site-verification"
+          content="0L-OGw7wusEygK1F_ra_origg8lgYJsgfezVrpvljJw"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://lofi-radio-desktop.vercel.app"
+        />
+        <meta property="og:title" content="Lofi Radio Desktop" />
+        <meta
+          property="og:description"
+          content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"
+        />
+        <meta property="og:image" content="../public/meta/main.jpg" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://lofi-radio-desktop.vercel.app"
+        />
+        <meta property="twitter:title" content="Lofi Radio Desktop" />
+        <meta
+          property="twitter:description"
+          content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"
+        />
+        <meta
+          property="twitter:image"
+          content="https://i.imgur.com/Lg3PMpn.png"
+        />
+      </Head>
+      <Script async src="https://cdn.splitbee.io/sb.js" />
+    </>
   );
 }
