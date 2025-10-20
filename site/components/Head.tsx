@@ -49,14 +49,7 @@ Listen to sleep tales 24/7 radio from your desktop any time!"
           content="https://lofi-radio-desktop.vercel.app"
         />
         <meta property="twitter:title" content="Lofi Radio Desktop" />
-        {/* <meta
-          property="twitter:description"
-          content="Enjoy the lofi hip hop radio stream on your Desktop - for Mac & PC"
-        /> */}
-        {/* <meta
-          property="twitter:image"
-          content="https://i.imgur.com/Lg3PMpn.png"
-        /> */}
+       
       </Head>
     </>
   );
